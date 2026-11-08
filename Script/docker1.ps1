@@ -1,0 +1,1 @@
+docker exec -it ubuntu1 bash
