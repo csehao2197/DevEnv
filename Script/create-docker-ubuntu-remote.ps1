@@ -1,3 +1,7 @@
+# ============================================
+# Script: create-docker-ubuntu.ps1
+# Description: Use free Codex OSS or Codex Remote AI (Mac Studio) depending on the environment variables.
+# ============================================
 
 param(
     [Parameter(Mandatory = $true)]

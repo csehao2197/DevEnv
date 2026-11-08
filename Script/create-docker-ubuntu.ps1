@@ -1,4 +1,8 @@
-
+# ============================================
+# Script: create-docker-ubuntu.ps1
+# Description: This script creates a Docker container with Ubuntu, installs Codex, and sets up the environment for development.
+# Can use free Codex OSS or Codex Remote AI (Mac Studio) depending on the environment variables.
+# ============================================
 param(
     [Parameter(Mandatory = $true)]
     [string]$ContainerName,
